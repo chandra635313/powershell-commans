@@ -1,0 +1,11 @@
+1. Get module- * This command will display the list of modules for that version
+* In PowerShell, Get-Module is a cmdlet used to retrieve information about modules that are available, loaded, or installed in the current PowerShell session.
+2.Get module -ListAvailable- List All Available Modules:
+3.How to Import a Module After Listing
+* Import-Module ModuleName
+4.Filter by Name
+To check if a specific module is available:
+*Get-Module -ListAvailable -Name ModuleName
+5. Using Get-Command
+This is the most common way to list all commands (functions, cmdlets, aliases) from a specific module.
+* Get-Command -Module ModuleName
